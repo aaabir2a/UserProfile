@@ -65,7 +65,7 @@ exports.getAllUsers = async (req, res) => {
   }
 };
 
-// Update User Profile
+
 exports.updateUserProfile = async (req, res) => {
   try {
     const updates = req.body;
@@ -78,7 +78,7 @@ exports.updateUserProfile = async (req, res) => {
   }
 };
 
-// Delete User Profile
+
 exports.deleteUser = async (req, res) => {
   try {
     const user = await User.findByIdAndDelete(req.user.id);
