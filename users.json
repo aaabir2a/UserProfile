@@ -1,0 +1,34 @@
+[
+    {
+        "firstName": "John",
+        "lastName": "Doe",
+        "NIDNumber": "1234567890",
+        "phoneNumber": "5551234567",
+        "password": "hashedpassword1",
+        "bloodGroup": "A+"
+    },
+    {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "NIDNumber": "0987654321",
+        "phoneNumber": "5557654321",
+        "password": "hashedpassword2",
+        "bloodGroup": "B-"
+    },
+    {
+        "firstName": "Alice",
+        "lastName": "Johnson",
+        "NIDNumber": "1122334455",
+        "phoneNumber": "5551122334",
+        "password": "hashedpassword3",
+        "bloodGroup": "O+"
+    },
+    {
+        "firstName": "Bob",
+        "lastName": "Brown",
+        "NIDNumber": "6677889900",
+        "phoneNumber": "5556677889",
+        "password": "hashedpassword4",
+        "bloodGroup": "AB-"
+    }
+]

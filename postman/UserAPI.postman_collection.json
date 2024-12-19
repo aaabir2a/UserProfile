@@ -1,0 +1,105 @@
+{
+    "info": {
+      "name": "User Registration API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Register User",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"firstName\": \"John\",\n  \"lastName\": \"Doe\",\n  \"NIDNumber\": \"1234567890\",\n  \"phoneNumber\": \"5551234567\",\n  \"password\": \"password123\",\n  \"bloodGroup\": \"A+\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3000/api/users/register",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "users", "register"]
+          }
+        }
+      },
+      {
+        "name": "Login User",
+        "request": {
+          "method": "POST",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"phoneNumber\": \"5551234567\",\n  \"password\": \"password123\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3000/api/users/login",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "users", "login"]
+          }
+        }
+      },
+      {
+        "name": "Get Profile",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/api/users/profile",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "users", "profile"]
+          }
+        }
+      },
+      {
+        "name": "Get All Users",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/api/users/",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "users", ""]
+          }
+        }
+      },
+      {
+        "name": "Update Profile",
+        "request": {
+          "method": "PUT",
+          "header": [],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"firstName\": \"Johnny\",\n  \"bloodGroup\": \"O+\"\n}"
+          },
+          "url": {
+            "raw": "http://localhost:3000/api/users/profile",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "users", "profile"]
+          }
+        }
+      },
+      {
+        "name": "Delete Profile",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "url": {
+            "raw": "http://localhost:3000/api/users/profile",
+            "protocol": "http",
+            "host": ["localhost"],
+            "port": "3000",
+            "path": ["api", "users", "profile"]
+          }
+        }
+      }
+    ]
+  }
+  
